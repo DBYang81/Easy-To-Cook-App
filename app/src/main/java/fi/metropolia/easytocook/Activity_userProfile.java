@@ -6,21 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Activity_logIn extends AppCompatActivity {
+public class Activity_userProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_in);
+        setContentView(R.layout.activity_user_profile);
 
-        findViewById(R.id.btnToProfile).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnLogOut).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentProfile = new Intent(getApplicationContext(), Activity_userProfile.class);
-                startActivity(intentProfile);
+                Intent intentLogOut = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intentLogOut);
             }
-
-
         });
     }
 }
