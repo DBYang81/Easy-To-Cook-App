@@ -20,7 +20,6 @@ public class Activity_logIn extends AppCompatActivity {
                 startActivity(intentProfile);
             }
 
-
         });
     }
 }
