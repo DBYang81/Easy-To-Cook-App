@@ -39,7 +39,15 @@ public class signup_login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), search_by_ingredients.class);
                 startActivity(intent);
+            }
+        });
 
+        // directs to search by time page
+        findViewById(R.id.btnTime).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), search_by_time.class);
+                startActivity(intent);
             }
         });
     }
