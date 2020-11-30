@@ -18,4 +18,7 @@
     <string name="type_dish">Type a recipe</string>
     <string name="Calories">Calories</string>
     <string name="profile_pic">Profile pic</string>
+    <string name="time_30_min">Less than 30 min</string>
+    <string name="time_30_90">From 30 to 90 min</string>
+    <string name="time_90_and_more">From 90 min</string>
 </resources>

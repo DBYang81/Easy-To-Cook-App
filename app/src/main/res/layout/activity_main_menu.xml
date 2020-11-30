@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <RadioButton
-        android:id="@+id/radioButtoningredients"
+        android:id="@+id/time_less_30"
         android:layout_width="123dp"
         android:layout_height="41dp"
         android:layout_marginTop="16dp"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <RadioButton
-        android:id="@+id/radioButtontime"
+        android:id="@+id/time_30_to_90"
         android:layout_width="126dp"
         android:layout_height="42dp"
         android:background="@drawable/ic_launcher_background"
@@ -74,11 +74,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtoningredients"
+        app:layout_constraintTop_toBottomOf="@+id/time_less_30"
         app:layout_constraintVertical_bias="0.059" />
 
     <RadioButton
-        android:id="@+id/radioButtoncalories"
+        android:id="@+id/time_more_90"
         android:layout_width="120dp"
         android:layout_height="51dp"
         android:background="@drawable/ic_launcher_background"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.305"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtontime"
+        app:layout_constraintTop_toBottomOf="@+id/time_30_to_90"
         app:layout_constraintVertical_bias="0.055" />
 
     <ImageButton
@@ -99,7 +99,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintTop_toBottomOf="@+id/time_more_90"
         app:layout_constraintVertical_bias="0.153"
         app:srcCompat="@drawable/mushooms_image" />
 
@@ -125,7 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintTop_toBottomOf="@+id/time_more_90"
         app:layout_constraintVertical_bias="0.154"
         app:srcCompat="@drawable/pasta" />
 
