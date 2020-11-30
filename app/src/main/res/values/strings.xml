@@ -4,6 +4,7 @@
     <string name="logIn_email">   Email</string>
     <string name="logIn_passwords">   Password</string>
     <string name="logIn">   Log In</string>
+    <string name="search">   Search</string>
     <string name="signup">   Sign Up</string>
     <string name="dishsearch">   Dish Search</string>
     <string name="hello">Hello</string>
@@ -14,6 +15,7 @@
     <string name="Cuisine">Cuisine</string>
     <string name="Ingredient">Ingredient</string>
     <string name="Time">TIme</string>
+    <string name="type_dish">Type a recipe</string>
     <string name="Calories">Calories</string>
     <string name="profile_pic">Profile pic</string>
 </resources>
