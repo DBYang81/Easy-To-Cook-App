@@ -5,6 +5,7 @@
     <string name="logIn_passwords">   Password</string>
     <string name="logIn">   Log In</string>
     <string name="signup">   Sign Up</string>
+    <string name="dishsearch">   Dish Search</string>
     <string name="hello">Hello</string>
     <string name="hello_world">Hello World</string>
     <string name="next">   Next</string>
