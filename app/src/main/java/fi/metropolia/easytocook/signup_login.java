@@ -22,6 +22,15 @@ public class signup_login extends AppCompatActivity {
             }
         });
 
+        // direct to the account creation page
+        findViewById(R.id.btnSignUp).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), create_user_account.class);
+                startActivity(intent);
+            }
+        });
+
         /*add create user profile
         findViewById(R.id.btnSignUp).setOnClickListener(new View.OnClickListener() {
             @Override
