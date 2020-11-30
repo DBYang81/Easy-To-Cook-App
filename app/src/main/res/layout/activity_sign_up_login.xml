@@ -77,19 +77,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLogIn"
         app:layout_constraintVertical_bias="0.303" />
 
-    <Button
-        android:id="@+id/btnCuisine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="92dp"
-        android:fontFamily="@font/dancing_script"
-        android:text="@string/Cuisine"
-        android:textAlignment="viewStart"
-        android:textColor="@android:color/holo_orange_light"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
         android:id="@+id/btnIngredient"
