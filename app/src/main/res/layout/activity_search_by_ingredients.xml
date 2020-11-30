@@ -2,8 +2,96 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_ingredient_search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/profile_background"
     tools:context=".search_by_ingredients">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="193dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="571dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/type_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/Ingredient" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_mushroom"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:layout_marginBottom="344dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/mushooms_image" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_dumplings"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/dumpligs" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_pasta"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:layout_marginBottom="344dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/pasta" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_sushi"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_pasta"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/sushi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
