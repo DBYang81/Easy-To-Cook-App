@@ -13,6 +13,7 @@ public class signup_login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_login);
 
+        //directs to the login interface
         findViewById(R.id.btnLogIn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,14 +23,14 @@ public class signup_login extends AppCompatActivity {
             }
         });
 
-        /*add create user profile
-        findViewById(R.id.btnSignUp).setOnClickListener(new View.OnClickListener() {
+        // directs to the main menu interface
+        findViewById(R.id.btnDishSearch).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Activity_userProfile.class);
+                Intent intent = new Intent(getApplicationContext(), Main_menu.class);
                 startActivity(intent);
 
             }
-        });*/
+        });
     }
 }
