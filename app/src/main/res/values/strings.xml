@@ -21,4 +21,7 @@
     <string name="time_30_min">Less than 30 min</string>
     <string name="time_30_90">From 30 to 90 min</string>
     <string name="time_90_and_more">From 90 min</string>
+    <string name="calories_500">Less than 500 kcal per portion</string>
+    <string name="calories_1000">From 500 to 1000 kcal per portion</string>
+    <string name="calories_unlimited">More than 1000 kcal per portion</string>
 </resources>

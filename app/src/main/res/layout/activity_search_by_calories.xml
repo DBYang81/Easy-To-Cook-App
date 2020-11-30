@@ -2,8 +2,113 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_search_by_calories"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/profile_background"
     tools:context=".search_by_calories">
+
+    <RadioGroup
+        android:id="@+id/radioGroupTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <RadioButton
+        android:id="@+id/time_less_30"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="616dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="@string/calories_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/time_30_to_90"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="@string/calories_1000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_less_30"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <RadioButton
+        android:id="@+id/time_more_90"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="@string/calories_unlimited"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_30_to_90"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_mushroom"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_more_90"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/mushooms_image" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_dumplings"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/dumpligs" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_pasta"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/time_more_90"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/pasta" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_sushi"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_pasta"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/sushi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
