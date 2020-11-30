@@ -129,7 +129,7 @@
         android:id="@+id/btnDishSearch"
         android:layout_width="191dp"
         android:layout_height="101dp"
-        android:text="@string/dishsearch"
+        android:text="Search dish"
         app:layout_constraintBottom_toTopOf="@+id/btnIngredient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
