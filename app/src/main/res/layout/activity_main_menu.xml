@@ -85,8 +85,62 @@
         android:text="@string/Calories"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintHorizontal_bias="0.305"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButtontime"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_mushroom"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/mushooms_image" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_dumplings"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/dumpligs" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_pasta"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtoncalories"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/pasta" />
+
+    <ImageButton
+        android:id="@+id/btn_recipe_sushi"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe_mushroom"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe_pasta"
+        app:layout_constraintVertical_bias="0.385"
+        app:srcCompat="@drawable/sushi" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
