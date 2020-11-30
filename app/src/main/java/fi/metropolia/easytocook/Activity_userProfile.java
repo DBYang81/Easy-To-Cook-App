@@ -16,7 +16,7 @@ public class Activity_userProfile extends AppCompatActivity {
         findViewById(R.id.btnLogOut).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLogOut = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intentLogOut = new Intent(getApplicationContext(), signup_login.class);
                 startActivity(intentLogOut);
             }
         });
