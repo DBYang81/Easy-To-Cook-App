@@ -32,5 +32,15 @@ public class signup_login extends AppCompatActivity {
 
             }
         });
+
+        // directs to search by ingredients page
+        findViewById(R.id.btnIngredient).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), search_by_ingredients.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }
