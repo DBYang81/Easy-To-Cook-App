@@ -8,7 +8,8 @@
 :cupid:[IDs list](https://docs.google.com/spreadsheets/d/1xssecXn3N6ulnYA4CkKeV6QC_BOsWSTGW73EWSZASdA/edit?usp=sharing)<br>
 :cupid: [Pictures](https://metropoliafi-my.sharepoint.com/:f:/g/personal/ekaterv_metropolia_fi/EqwEkBcpzp5HuzKc-HpcqIkBjhfcJLvnkLJiDwEB4WPJqQ?e=sJtAoz)
 
-:cupid: One version of EasytoCook App 
-:heavy_check_mark: :heavy_check_mark: :heavy_check_mark: please click [here](https://users.metropolia.fi/~dongbiny/ EasytoCook_JavaDoc/):heavy_check_mark: :heavy_check_mark: :heavy_check_mark: 
+:cupid: One version of EasytoCook App click [here](https://drive.google.com/file/d/11fChBDUL5F7qlVkfHX6SmO8y60cOyTuK/view?usp=sharing) 
+
+ One version of EasyToCook JaveDoc click [here](https://users.metropolia.fi/~dongbiny/ EasytoCook_JavaDoc/)
 
 :cupid: [ALternative version of the app with json by Ekaterina](https://github.com/ekaterinadvolkova/Easy-to-Cook-Application)
