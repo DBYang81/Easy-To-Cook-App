@@ -9,4 +9,4 @@
 [Pictures](https://metropoliafi-my.sharepoint.com/:f:/g/personal/ekaterv_metropolia_fi/EqwEkBcpzp5HuzKc-HpcqIkBjhfcJLvnkLJiDwEB4WPJqQ?e=sJtAoz)
 
 One version of EasytoCook App 
-please click `here`[](file:///Users/DBY/Documents/Metropolia/Java/AndroidStudioProjects/EasyToCook1_1/JavaDoc/index.html) for APP
+please click [here](file:///Users/DBY/Documents/Metropolia/Java/AndroidStudioProjects/EasyToCook1_1/JavaDoc/index.html)
