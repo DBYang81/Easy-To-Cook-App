@@ -9,68 +9,43 @@
 
     <ImageView
         android:id="@+id/cookingTimeImage"
-        android:layout_width="99dp"
+        android:layout_width="0dp"
         android:layout_height="88dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="568dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="576dp"
         android:contentDescription="@string/Time"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintEnd_toStartOf="@+id/searchView2"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/clock" />
 
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="270dp"
-        android:layout_height="194dp"
-        android:layout_marginEnd="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cookingTimeImage"
-        app:layout_constraintTop_toTopOf="@+id/cookingTimeImage">
-
-
-        <RadioButton
-            android:id="@+id/lessThanHalfHour"
-            android:layout_width="283dp"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/Less_than_half_hour"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/betweenHalfAndOneHour"
-            android:layout_width="282dp"
-            android:layout_height="wrap_content"
-            android:text="@string/btw_half_and_one_hour"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/moreThanOneHour"
-            android:layout_width="282dp"
-            android:layout_height="wrap_content"
-            android:text="@string/more_than_a_hour"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/moreThanTwoHour"
-            android:layout_width="283dp"
-            android:layout_height="wrap_content"
-            android:text="@string/more_than_two_hours"
-            android:textStyle="bold" />
-    </RadioGroup>
-
     <ListView
         android:id="@+id/listViewCookingTime"
-        android:layout_width="351dp"
-        android:layout_height="348dp"
+        android:layout_width="383dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="50dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView2"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="188dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="71dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/listViewCookingTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cookingTimeImage"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

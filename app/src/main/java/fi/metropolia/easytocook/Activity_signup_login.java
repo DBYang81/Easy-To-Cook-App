@@ -1,12 +1,23 @@
 package fi.metropolia.easytocook;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.room.Room;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import fi.metropolia.easytocook.receipe.Dish;
+import fi.metropolia.easytocook.receipe.Ingredient;
+import fi.metropolia.easytocook.relationship.IngredientForDish;
 
 public class Activity_signup_login extends AppCompatActivity {
+
 
     private final View.OnClickListener myClickListener = new View.OnClickListener() {
         @Override
@@ -29,6 +40,8 @@ public class Activity_signup_login extends AppCompatActivity {
             } else if (v == findViewById(R.id.btnIngredient)){
                 Intent intentIngredientSearch = new Intent (getApplicationContext(), Activity_search_by_ingredients.class);
                 startActivity(intentIngredientSearch);
+
+
             }
         }
     };
@@ -50,6 +63,12 @@ public class Activity_signup_login extends AppCompatActivity {
         findViewById(R.id.btnDishSearch).setOnClickListener(myClickListener);
         //add intent to direct to ingredient search page
         findViewById(R.id.btnIngredient).setOnClickListener(myClickListener);
+
+
+
+
+
+
 
 
     }
