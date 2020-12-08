@@ -9,6 +9,6 @@
 :cupid: [Pictures](https://metropoliafi-my.sharepoint.com/:f:/g/personal/ekaterv_metropolia_fi/EqwEkBcpzp5HuzKc-HpcqIkBjhfcJLvnkLJiDwEB4WPJqQ?e=sJtAoz)
 
 :cupid: One version of EasytoCook App 
-please click [here](https://users.metropolia.fi/~dongbiny/EasytoCook_JavaDoc/)
+:heavy_check_mark: :heavy_check_mark: :heavy_check_mark: please click [here](https://users.metropolia.fi/~dongbiny/ EasytoCook_JavaDoc/):heavy_check_mark: :heavy_check_mark: :heavy_check_mark: 
 
 :cupid: [ALternative version of the app with json by Ekaterina](https://github.com/ekaterinadvolkova/Easy-to-Cook-Application)
